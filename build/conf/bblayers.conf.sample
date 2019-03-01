@@ -7,4 +7,5 @@ BBFILES ?= ""
 
 BBLAYERS ?= " \
   ##OEROOT##/meta \
+  ##OEROOT##/../meta-freescale \
   "
