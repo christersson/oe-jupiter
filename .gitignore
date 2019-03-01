@@ -1,0 +1,10 @@
+bitbake-cookerdaemon.log
+build/conf/bblayers.conf
+build/conf/local.conf
+build/conf/sanity_info
+build/cache
+build/downloads
+build/sstate-cache
+build/tmp-*
+build/bitbake.lock
+.gitignore
