@@ -1,12 +1,20 @@
 
 ### Shell environment set up for builds. ###
 
-You can now run 'bitbake <target>'
+You can now run:
 
-Common targets are:
+MACHINE=<machine> DISTRO=solar bitbake <target>
+
+where common targets are:
+    solar-image
+    solar-dev-image
     core-image-minimal
-    core-image-sato
-    meta-toolchain
-    meta-ide-support
+    core-image
+
+and common machines are:
+    imx6slevk
+    imx6sllevk
+    imx6ulevk
+    imx6ullevk
 
 You can also run generated qemu images with a command like 'runqemu qemux86'
