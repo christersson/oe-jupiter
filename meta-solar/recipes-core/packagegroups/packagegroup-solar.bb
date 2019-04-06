@@ -9,6 +9,7 @@ PROVIDES = "${PACKAGES}"
 PACKAGES = "\
 	packagegroup-solar \
 	packagegroup-solar-devextras \
+	linux-firmware-sd8887 \
 "
 
 # Packages required by base product
