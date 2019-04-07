@@ -9,7 +9,6 @@ PROVIDES = "${PACKAGES}"
 PACKAGES = "\
 	packagegroup-solar \
 	packagegroup-solar-devextras \
-	linux-firmware-sd8887 \
 "
 
 # Packages required by base product
@@ -17,6 +16,7 @@ RDEPENDS_packagegroup-solar = "\
 	util-linux \
 	connman \
 	ofono \
+	linux-firmware-sd8887 \
 "
 
 # Additional packages for development purposes
