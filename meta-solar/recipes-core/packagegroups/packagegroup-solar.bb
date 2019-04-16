@@ -22,6 +22,7 @@ RDEPENDS_packagegroup-solar = "\
 # Additional packages for development purposes
 RDEPENDS_packagegroup-solar-devextras = "\
 	i2c-tools \
+	connman-client \
 	connman-tests \
 	ofono-tests \
 "
